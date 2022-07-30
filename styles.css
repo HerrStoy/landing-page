@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    margin: 0px;
+}
+
+.hero{
+    background: #1F2937;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.action {
+    height: auto;
+    background: white;
+    display: flex;
+}
+
+.quote {
+    height: 430px;
+    background: #E5E7EB;
+    display: flex;
+}
+
+.footer{
+    background: #1F2937;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#hero1 {
+    height: 530px;
+}
+
+#action1 {
+    height: 490px;
+}
+
+#action2 {
+    height: 350px;
+}
+
+#hero2 {
+    height: 445px;
+}
