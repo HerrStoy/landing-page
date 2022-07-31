@@ -7,8 +7,12 @@ body {
 .hero{
     background: #1F2937;
     display: flex;
+    flex-direction: row;
     margin-bottom: 10px;
-    
+    font-family: Rockwell;
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
 }
 
 .action {
@@ -44,4 +48,16 @@ body {
 
 #hero2 {
     height: 445px;
+}
+
+#herologo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+#herolinks {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
 }
