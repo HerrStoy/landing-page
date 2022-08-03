@@ -2,20 +2,32 @@
 
 body {
     margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    /* display: flex; */
+    background: #1F2937;
+    height: 530px;
+    color: #F9FAF8;
+}
+
+.heroHeader{
+    display: flex;    
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: flex-start;
+}
+
+.heroMain {
+    display: flex;
+    justify-content: space-around;
+}
+
+#leftText {
     display: flex;
     flex-direction: column;
-}
-
-.hero{
-    display: flex;
-    background: #1F2937;
-    justify-content: space-between;
-    color: #F9FAF8;
-    list-style-type: none;
-}
-
-.hero > ul {
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .action {
@@ -37,10 +49,6 @@ body {
     width: 100%;
 }
 
-#hero1 {
-    height: 530px;
-}
-
 #action1 {
     height: 490px;
 }
@@ -56,11 +64,16 @@ body {
 #herologo {
     display: flex;
     justify-content: flex-start;
-    padding-left: 10%;
+    padding-left: 40px;
 }
 
 #herolinks {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 10%;
+    justify-content: flex-start;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
 }
