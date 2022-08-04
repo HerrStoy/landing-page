@@ -6,7 +6,6 @@ body {
 }
 
 .hero {
-    /* display: flex; */
     background: #1F2937;
     height: 530px;
     color: #F9FAF8;
@@ -14,20 +13,40 @@ body {
 
 .heroHeader{
     display: flex;    
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     align-items: flex-start;
+    margin-left: 10%;    
+    margin-right: 10%;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heroHeader > ul {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .heroMain {
     display: flex;
-    justify-content: space-around;
+    margin-left: 10%;    
+    margin-right: 10%;
 }
 
-#leftText {
+.leftText {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    /* background-color: red; */
+    font-size: 48px;
+    flex: 1;
+}
+
+.imgPlaceholder {
+    display: flex;
+    background-color: rgb(122, 129, 134);
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .action {
