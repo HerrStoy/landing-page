@@ -24,13 +24,20 @@ body {
 
 .heroHeader > ul {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
 }
 
 .heroMain {
     display: flex;
     margin-left: 10%;    
     margin-right: 10%;
+    margin-top: 5%;
 }
 
 .leftText {
@@ -38,7 +45,14 @@ body {
     flex-wrap: wrap;
     /* background-color: red; */
     font-size: 48px;
+    font-weight: 700;
     flex: 1;
+    padding-right: 10%;
+}
+
+.smallGrey {
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .imgPlaceholder {
@@ -47,12 +61,34 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
+    /* margin-left: 10%; */
 }
 
-.action {
-    height: auto;
-    background: white;
+.button1 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 25%;
+    height: 15%;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2%;
+}
+
+.images {
+    margin-top: 5%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    height: 490px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;    
+}
+
+#boxes {
+    display: flex;
+    background-color: orange;
 }
 
 .quote {
@@ -68,31 +104,3 @@ body {
     width: 100%;
 }
 
-#action1 {
-    height: 490px;
-}
-
-#action2 {
-    height: 350px;
-}
-
-#hero2 {
-    height: 445px;
-}
-
-#herologo {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 40px;
-}
-
-#herolinks {
-    display: flex;
-    justify-content: flex-start;
-}
-
-li {
-    display: inline;
-    list-style: none;
-    margin: 5px;
-}
