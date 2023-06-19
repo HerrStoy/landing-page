@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="styles.css" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+    $("#enscapeframe").on("mouseenter", function() {
+    $(this).focus();
+    });
+    });
+  </script>
+  <iframe id="enscapeframe" src="https://my.enscape3d.com/account#!/panoramaGallery/view/652e2487-c067-4477-a617-746f981a32aa/b47ef3e7-e26d-44da-9164-40ad0f5bca7c" width="882" height="520" allowfullscreen="allowfullscreen"></iframe>
     <script>
         const a = 1 + 8;
         const b = 22 * 3;
@@ -64,14 +73,6 @@
     <div class="hero">
         DARK2
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-    $("#enscapeframe").on("mouseenter", function() {
-    $(this).focus();
-    });
-    });
-  </script>
-  <iframe id="enscapeframe" src="https://my.enscape3d.com/account#!/panoramaGallery/view/652e2487-c067-4477-a617-746f981a32aa/b47ef3e7-e26d-44da-9164-40ad0f5bca7c" width="882" height="520" allowfullscreen="allowfullscreen"></iframe>
+    
 </body>
 </html>
